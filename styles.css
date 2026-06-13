@@ -1,0 +1,145 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgb(27, 25, 32)
+}
+nav{
+    background-color:rgb(58, 45, 45);
+    display:flex;
+    position:fixed;
+    width:97%;
+    padding:15px 30px;
+    justify-content:space-between;
+    align-items:center; 
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.home_right{
+    padding:150px;
+    width:50%;
+    display:flex;
+    justify-content:center;
+}
+.home-content{
+    
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.home_left{
+    padding:100px;
+    width:60%;
+    
+}
+.circle{
+    border:4px solid green;
+    width:300px;
+    height:300px; 
+    border-radius:50%;
+}
+#profile{
+    width:300px;
+    height:300px;
+    border-radius:50%; 
+    object-fit:cover;
+}
+.about_content{
+    padding:15px;
+    position:relative;
+    border-radius:28px;
+    color:gray;
+    /* background-color:rgb(116, 103, 103); */
+    width:600px;
+    height:250px;
+}
+.about_page{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    gap:20px;
+}
+.about_left{
+    padding:100px;
+    color:green;
+}
+.about_right{
+    margin-top:-20px;    
+    padding:40px;
+    padding-right:150px;
+
+}
+.circle1{
+    border:4px solid green;
+    width:200px;
+    height:200px; 
+    border-radius:45%;
+}
+.skills_page{
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+    padding:250px;
+    justify-content:space-around;
+    align-items:center;
+    align-content:center;
+
+}
+.btn{
+    background-color:white;
+    font-size:16px;
+    color:gray;
+    width:120px;
+    height:40px;
+    border-radius:30px;
+    text-align:center;
+}
+.contact_page{
+    padding:230px; 
+}
+.cont_det{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    gap:18px;
+}
+.btn1{
+    width:400px;
+    height:55px;
+    background-color:rgb(43, 43, 48);
+    border-radius:20px;
+    text-align:flex-start;
+}
+.container{
+    padding:80px;
+    display:flex;
+    justify-content:space-around;
+}
+.box{
+    width:200px;
+    padding:10px;
+    height:200px;
+    background-color:rgb(43, 43, 48);
+    border-radius:20px;
+}
+nav a:hover{
+    color:rgb(14, 238, 14);
+    font-size:17px ;
+}
+button:hover{
+    background-color:rgb(201, 40, 226);
+    color:white;
+    font-size:18px;
+}
+.box:hover{
+    border:3px solid green;
+}
+.btn1:hover{
+    border:3px solid green;
+}
